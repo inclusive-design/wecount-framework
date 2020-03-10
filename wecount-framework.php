@@ -1,15 +1,16 @@
 <?php
 /**
- * Plugin Name:     Wecount Framework
- * Plugin URI:      PLUGIN SITE HERE
- * Description:     PLUGIN DESCRIPTION HERE
- * Author:          YOUR NAME HERE
- * Author URI:      YOUR SITE HERE
+ * Plugin Name:     We Count Framework
+ * Plugin URI:      https://wecount.inclusive-design.ca
+ * Description:     Framework for the We Count CMS backend.
+ * Author:          OCAD University
+ * Author URI:      https://wecount.inclusive-design.ca
  * Text Domain:     wecount-framework
  * Domain Path:     /languages
  * Version:         0.1.0
  *
- * @package         Wecount_Framework
+ * @package         WeCount_Framework
  */
 
-// Your code starts here.
+require_once __DIR__ . '/vendor/autoload.php';
+WP_Dependency_Installer::instance( __DIR__ )->run();
