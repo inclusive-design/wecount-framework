@@ -7,6 +7,7 @@
  * Author URI:      https://wecount.inclusive-design.ca
  * Text Domain:     wecount-framework
  * Domain Path:     /languages
+ * GitHub Plugin URI: inclusive-design/wecount-framework
  * Version:         0.1.0
  *
  * @package         WeCount_Framework
