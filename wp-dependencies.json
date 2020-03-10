@@ -1,11 +1,53 @@
 [
-    {
-      "name": "GitHub Updater",
-      "host": "github",
-      "slug": "github-updater/github-updater.php",
-      "uri": "afragen/github-updater",
-      "branch": "develop",
-      "required": true,
-      "token": null
-    }
+  {
+    "name": "ACF to REST API",
+    "host": "wordpress",
+    "slug": "acf-to-rest-api/class-acf-to-rest-api.php",
+    "uri": "https://wordpress.org/plugins/acf-to-rest-api/",
+    "required": true
+  },
+  {
+    "name": "Advanced Custom Fields",
+    "host": "wordpress",
+    "slug": "advanced-custom-fields/acf.php",
+    "uri": "https://wordpress.org/plugins/advanced-custom-fields/",
+    "required": true
+  },
+  {
+    "name": "Disable Comments",
+    "host": "wordpress",
+    "slug": "disable-comments/disable-comments.php",
+    "uri": "https://wordpress.org/plugins/disable-comments/",
+    "required": true
+  },
+  {
+    "name": "GitHub Updater",
+    "host": "github",
+    "slug": "github-updater/github-updater.php",
+    "uri": "afragen/github-updater",
+    "branch": "develop",
+    "required": true,
+    "token": null
+  },
+  {
+    "name": "JAMstack Deployments",
+    "host": "wordpress",
+    "slug": "wp-jamstack-deployments/wp-jamstack-deployments.php",
+    "uri": "https://wordpress.org/plugins/wp-jamstack-deployments/",
+    "required": true
+  },
+  {
+    "name": "Toolbelt",
+    "host": "wordpress",
+    "slug": "wp-toolbelt/index.php",
+    "uri": "https://wordpress.org/plugins/wp-toolbelt/",
+    "required": true
+  },
+  {
+    "name": "WP REST API - Pure Taxonomies",
+    "host": "wordpress",
+    "slug": "wp-rest-api-pure-taxonomies/wp_api_pure_taxonomies.php",
+    "uri": "https://wordpress.org/plugins/wp-rest-api-pure-taxonomies/",
+    "required": true
+  }
 ]
