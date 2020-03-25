@@ -8,17 +8,19 @@
  * Text Domain:     wecount-framework
  * Domain Path:     /languages
  * GitHub Plugin URI: inclusive-design/wecount-framework
- * Version:         0.2.0
+ * Version:         0.2.1
  *
  * @package         WeCount_Framework
  */
 
-function logged_in_only_frontend() {
-    if ( ! is_user_logged_in() ) {
-        auth_redirect();
+if ( defined('LOGGED_IN_ONLY') && LOGGED_IN_ONLY === true ) {
+    function logged_in_only_frontend() {
+        if ( ! is_user_logged_in() ) {
+            auth_redirect();
+        }
     }
+    add_action( 'template_redirect', 'logged_in_only_frontend' );
 }
-add_action( 'template_redirect', 'logged_in_only_frontend' );
 
 require_once __DIR__ . '/vendor/autoload.php';
 
